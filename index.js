@@ -13,8 +13,7 @@ function takeANumber(deliLine, guestName) {
 function nowServing(deliLine) {
   if (deliLine.length === 0) {
     return "There is nobody waiting to be served!"
-  }
-  else {
+  } else {
     const currentGuest = deliLine.shift()
     return `Currently serving ${currentGuest}.`
     /*
@@ -26,8 +25,7 @@ function nowServing(deliLine) {
 function currentLine(deliLine) {
   if (deliLine.length === 0) {
     return "The line is currently empty."
-  }
-  else {
+  } else {
     const guestInLine = []
     //declares empty array to push elements onto
     
